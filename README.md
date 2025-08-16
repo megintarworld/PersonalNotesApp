@@ -3,7 +3,7 @@ This is a Kotlin Multiplatform project targeting Android, iOS.
 Project Structure:
 =================
 Multi Module: Core, Home
-MVVM=> UI->ViewModel->Repository->UseCase-> Service-> Platform Specific Expect/Actual
+MVVM=> UI->ViewModel->UseCase-> Repository->Service-> Platform Specific Expect/Actual
 and listening Flow for any update in data.
 
 #Architecture MVVM:
@@ -28,4 +28,5 @@ Kotlinx DateTIme
 
 
 HTML Clicks and rendering platform wise using expect/actual
-In webview have rendedrd html with javascript function for event listening and running in webview
+In webview have rendered html with javascript function for added event listening js script in webview
+which then Toasted message.
