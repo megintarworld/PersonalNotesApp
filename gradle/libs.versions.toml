@@ -20,6 +20,9 @@ materialIconsCore = "1.7.8"
 room = "2.7.0-alpha12"
 ksp = "2.2.0-2.0.2"
 sqlite = "2.5.0-alpha12"
+runtime = "1.9.0"
+material3 = "1.3.2"
+ui = "1.9.0"
 
 [libraries]
 android-pdf-viewer = { module = "com.github.barteksc:android-pdf-viewer", version.ref = "androidPdfViewer" }
@@ -45,6 +48,9 @@ kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
+androidx-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "runtime" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

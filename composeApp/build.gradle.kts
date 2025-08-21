@@ -35,6 +35,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            implementation("io.github.grizzi91:bouquet:1.1.0")
         }
         commonMain.dependencies {
             implementation(compose.components.resources)
